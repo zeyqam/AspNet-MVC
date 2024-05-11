@@ -9,5 +9,9 @@ namespace AspIntro_MVC.ViewModels
         public int AgeOfAykhan { get; set; }
 
         public List<User> Users { get; set; }
+
+        public List<Employee> Employees { get;set; }
+        public int ProductsCount { get; set; }  
+        public List<Product> Products { get; set; }
     }
 }
